@@ -1,5 +1,7 @@
 # IC SEM RE Tutorial using AI
-In this tutorial, we will be using artificial intelligence (AI) to help reverse-engineer (RE) an integrated circuit (IC) from a scanning electron microscope (SEM) image for hardware assurance. We invite you to follow along with this tutorial and build your own project. We hope this project will serve you well as a resume-booster when applying for a job or further education, or professional development to support your existing position. Using python, this module will introduce various topics within image processing, computer vision, and machine learning. Code in this repository was used for the paper "IC SEM Reverse Engineering Tutorial using Artificial Intelligence", accepted at IEEE Design & Test in 2025. For more information, please refer to our paper at [__DOI pending while paper is in press__]
+In this tutorial, we will be using artificial intelligence (AI) to help reverse-engineer (RE) an integrated circuit (IC) from a scanning electron microscope (SEM) image for hardware assurance. We invite you to follow along with this tutorial and build your own project. We hope this project will serve you well as a resume-booster when applying for a job or further education, or professional development to support your existing position. Using python, this module will introduce various topics within image processing, computer vision, and machine learning. Code in this repository was used for the paper "IC SEM Reverse Engineering Tutorial using Artificial Intelligence", accepted at IEEE Design & Test in 2025. For more information, please refer to our paper at http://dx.doi.org/10.1109/MDAT.2025.3543464.
+
+**TUTORIAL VIDEOS WILL BE LINKED HERE AFTER PUBLICATION, CHECK BACK SOON!** 
 
 ## Description
 The main goal of this project is to automatically segment the foreground structures of the IC (i.e. the regions of interest) from the background. To accomplish this, we need to take in a grayscale image of an IC and then generate a binary image where the forground pixels are distinctly marked from the background pixels (as shown below). This information can be used to help reverse-engineer the IC.   
@@ -41,15 +43,18 @@ This repository is organized into three main folders:
 3. [powerpoints/](powerpoints/) contains .pdf versions of the powerpoints introducing the topics for each part 
 
 ## Citing
-If you use this in your work, please cite the accompanying preprint while the paper is in press:
+If you use this in your work, please cite the accompanying early access version while the paper is in press:
 
 ```bibtex
-@article{Dizon_Paradis_2024,
-    title={IC SEM Reverse Engineering Tutorial using Artificial Intelligence},
-    url={http://dx.doi.org/10.36227/techrxiv.172503813.33860756/v1},
-    DOI={10.36227/techrxiv.172503813.33860756/v1},
-    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-    author={Dizon-Paradis, Olivia P. and Koblah, David S. and Wilson, Ronald and Forte, Domenic and Woodard, Damon L.},
-    year={2024},
-    month=aug }
+@article{DizonParadis2025,
+  title = {IC SEM Reverse Engineering Tutorial using Artificial Intelligence},
+  ISSN = {2168-2364},
+  url = {http://dx.doi.org/10.1109/MDAT.2025.3543464},
+  DOI = {10.1109/mdat.2025.3543464},
+  journal = {IEEE Design &amp; Test},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+  author = {Dizon-Paradis,  Olivia P. and Koblah,  David S. and Wilson,  Ronald and Forte,  Domenic and Woodard,  Damon L.},
+  year = {2025},
+  pages = {1–1}
+}
 ```
