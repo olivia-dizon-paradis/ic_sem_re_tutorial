@@ -1,7 +1,7 @@
 # IC SEM RE Tutorial using AI
 In this tutorial, we will be using artificial intelligence (AI) to help reverse-engineer (RE) an integrated circuit (IC) from a scanning electron microscope (SEM) image for hardware assurance. We invite you to follow along with this tutorial and build your own project. We hope this project will serve you well as a resume-booster when applying for a job or further education, or professional development to support your existing position. Using python, this module will introduce various topics within image processing, computer vision, and machine learning. Code in this repository was used for the paper "IC SEM Reverse Engineering Tutorial using Artificial Intelligence", accepted at IEEE Design & Test in 2025. For more information, please refer to our paper at http://dx.doi.org/10.1109/MDAT.2025.3543464.
 
-**TUTORIAL VIDEOS WILL BE LINKED HERE AFTER PUBLICATION, CHECK BACK SOON!** 
+**Tutorial Videos**:  This project is part of a larger series, "[Hands-On Introduction to AI in Hardware Security: IC Reverse Engineering using Image Processing, Computer Vision, and Machine Learning](https://doi.org/10.5281/zenodo.15053176)." While this tutorial's 4 parts correspond to lecture videos 6-9, respectively, it is recommended to watch all videos in order. 
 
 ## Description
 The main goal of this project is to automatically segment the foreground structures of the IC (i.e. the regions of interest) from the background. To accomplish this, we need to take in a grayscale image of an IC and then generate a binary image where the forground pixels are distinctly marked from the background pixels (as shown below). This information can be used to help reverse-engineer the IC.   
@@ -56,5 +56,19 @@ If you use this in your work, please cite the accompanying early access version 
   author = {Dizon-Paradis,  Olivia P. and Koblah,  David S. and Wilson,  Ronald and Forte,  Domenic and Woodard,  Damon L.},
   year = {2025},
   pages = {1–1}
+}
+```
+
+In addition, if you use content from any of the videos in your work, please cite the Zenodo entry:
+
+```bibtex
+@misc{DizonParadis2025Videos,
+  author       = {Dizon-Paradis, Olivia and Wilson, Ronald and Koblah, David and Capecci, Daniel and Zhu, Mengdi and Ghosh, Pallabi and Acharya, Rabin and Forte, Domenic and Woodard, Damon},
+  title        = {Hands-On Introduction to AI in Hardware Security: IC Reverse Engineering using Image Processing, Computer Vision, and Machine Learning},
+  month        = mar,
+  year         = 2025,
+  publisher    = {Florida Institute for National Security (FINS)},
+  doi          = {10.5281/zenodo.15053176},
+  url          = {https://doi.org/10.5281/zenodo.15053176},
 }
 ```
